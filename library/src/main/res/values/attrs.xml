@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ExpandableTextView">
+        <attr name="collapse_text" format="string" />
+        <attr name="fold_text" format="string" />
+        <attr name="max_lines" format="integer" />
+
+        <attr name="additional_text_color" format="color" />
+        <attr name="underlined" format="boolean" />
+    </declare-styleable>
+</resources>

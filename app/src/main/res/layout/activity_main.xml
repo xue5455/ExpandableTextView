@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:expandabletextview="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.ymttzs.hospital.library.ExpandableTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        expandabletextview:max_lines="3"
+        expandabletextview:additional_text_color="@android:color/holo_orange_light"
+        expandabletextview:underlined="false"
+        android:text="This is a expandable textView demo.
+        文，wen，从玄从爻。天地万物的信息产生出来的现象、纹路、轨迹等。
+
+古者伏羲氏之王天下也，始画八卦，造书契，以代结绳（爻）之政，由是文籍生焉。——《尚书序》
+
+依类象形，故谓之文。其后形声相益，即谓之字。——《说文》序》[1]
+
+仓颉造书，形立谓之文，声具谓之字。——《古今通论》
+
+(1) 象形。甲骨文此字象纹理纵横交错形。“文”是汉字的一个部首。本义：花纹；纹理。
+
+(2) 同本义 [figure;veins]
+
+文，英语念为：text、article等，从字面意思上就可以理解为文章、文字，与古今中外的各个文学著作中出现的各种文字字形密不可分。古有甲骨文、金文、小篆等，今有宋体、楷体等，都在这一方面突出了“文”的重要性。古今中外，人们对于“文”都有自己不同的认知，从大的方面来讲，它可以用于表示一个民族的文化历史，从小的方面来说它可用于用于表示单独的一个“文”字，可用于表示一段话，也可用于人物的姓氏。"></com.ymttzs.hospital.library.ExpandableTextView>
+</RelativeLayout>
